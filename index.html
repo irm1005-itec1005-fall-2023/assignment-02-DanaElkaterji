@@ -101,30 +101,27 @@
         <li>give a comment on my page</li>
       </ol>
       <p> Fill in this form and provide feedback in order to  <strong>Win a free image </strong> </p>
-      <form action="/server-page-handling-form-data" method="post"> </form>
+      <form action="/server-page-handling-form-data" method="post">
         <ul>
           <li>
-            <label for="firstname">First Name:</label>
-            <input type="text" id="firstname" placeholder="Bob"/>
-            <label for="lastname">&nbsp;&nbsp;&nbsp;Last Name:</label>
-            <input type="text" id="lastname" placeholder="TheBaker"/>
+            <label for="fullname">Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Chris Rogers"/>
           </li>
-         </ul>
-         <ul>
-         <li>
-          <label for="email">Email:</label>
-          <input type="email" id="emai" mane="emai" placeholder="Bobthebaker@gmail.com"/>
-          </li>
-        </ul>
-        <ul>
           <li>
-            <label for="rating">Rate my artwork:</label>
-            <input type="range" id="rate" name="rate"/>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="chris@avengers.com"/>
           </li>
+          <li>
+            <label for="urgency">Urgency:</label>
+            <input type="range" id="urgency" name="urgency" />
+          </li>
+          <li>
+            <label for="message">Message:</label>
+            <textarea id="messsage" rows="5"></textarea>
+          </li>
+          <li><button type="submit">Submit</button></li>
         </ul>
-         
-    
-
+      </form>
     </section>
   </aside>
 
