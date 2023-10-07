@@ -1,7 +1,4 @@
-/*
- * Assignment 02
- * CSS FILE
- */
+
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -11,17 +8,11 @@ body {
   align-items: center;
 }
 
-h1 {
+h2 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
   color: #023047;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.6;
 }
 
 img { 
