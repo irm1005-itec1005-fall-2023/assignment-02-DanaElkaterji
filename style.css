@@ -25,6 +25,11 @@ img {
 }
 
 .footerLogo{
+  border-radius: 20%;
+  margin-top: 3rem;
+}
+
+.footerLogo{
   width: 50%;
   display: block;
   margin: center;
@@ -42,8 +47,10 @@ section{
   padding-right: 10px;
   padding-top: 10;
   padding-bottom: 10px;
-
+  border-radius: 5%;
+  
   }
+
   
 
 
@@ -52,5 +59,57 @@ section{
   
   
 }
+
+
+
+ul > li {
+padding: 1rem;
+border-radius: 0.5rem;
+border: 2px solid black
+
+}
+
+ul > li:nth-child(1){
+  background-color: #99582a;
+  
+}
+
+ul > li:nth-child(2){
+  background-color: #606C38;
+}
+
+ul > li:nth-child(3){
+  background-color: #99582a;
+
+}
+
+ul > li:nth-child(4){
+  background-color: #606C38;
+}
+ul > li:nth-child(5){
+  background-color: #99582a;
+
+}
+
+
+button{ 
+  border-color: #606c38;
+  background-color: #606c38;
+  color: #ffe6a7;
+  border-width: 4px;
+  border-radius: 15%;
+
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
 
 
