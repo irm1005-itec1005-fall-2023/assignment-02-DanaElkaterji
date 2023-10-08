@@ -32,7 +32,7 @@ img {
 .footerLogo{
   width: 50%;
   display: block;
-  margin: center;
+  margin: 2 auto;
   
 }
 
@@ -45,7 +45,7 @@ section{
   
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 10;
+  padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 5%;
   
@@ -65,31 +65,29 @@ section{
 ul > li {
 padding: 1rem;
 border-radius: 0.5rem;
-border: 2px solid black
+border: 2.5px solid black;
+margin: .3rem;
 
 }
 
 ul > li:nth-child(1){
-  background-color: #99582a;
+  background-color: #606C38;
   
 }
 
 ul > li:nth-child(2){
-  background-color: #606C38;
+  background-color: #99582a;
 }
 
 ul > li:nth-child(3){
-  background-color: #99582a;
+  background-color: #606C38;
 
 }
 
 ul > li:nth-child(4){
-  background-color: #606C38;
-}
-ul > li:nth-child(5){
   background-color: #99582a;
-
 }
+
 
 
 button{ 
@@ -109,6 +107,7 @@ ul{
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: nowrap;
+  
 }
 
 
