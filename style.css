@@ -111,4 +111,73 @@ ul{
 }
 
 
+.comingsoon{
+  margin: 0;
+
+}
+
+
+/*
+thia is for my Events link
+*/
+
+.Events{
+
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  
+  
+ 
+ 
+
+}
+
+.Events:nth-child(1){
+  background-color:#606c38
+
+
+}
+
+.Events:nth-child(2){
+background-color:#99582a
+}
+
+
+.Events:nth-child(3){
+  background-color:#606c38
+
+  
+}
+
+
+h2{
+  text-transform: uppercase;
+}
+
+section{
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.btn{
+  display:block;
+  margin-top: 1rem;
+
+  background-color: #ffe6a7;
+  color:#432818;
+  padding: 1.2rem;
+  border-radius: 3rem;
+  text-decoration: none;
+
+}
+
+.smile{
+  width:3rem;
+  border-radius: 100%;
+}
 
