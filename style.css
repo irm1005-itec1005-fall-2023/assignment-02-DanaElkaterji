@@ -177,5 +177,63 @@ section{
 .smile{
   width:3rem;
   border-radius: 100%;
+ 
 }
 
+
+/*
+home
+*/
+
+.comingsoon{
+  width:3rem;
+  border-radius: 100%;
+
+  margin-right: 17.7rem;
+  margin-top: 0rem;
+}
+
+.business-card {
+  width: 350px;
+  background-color: whitesmoke;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9px;
+
+}
+
+
+.follow {
+    position: absolute; 
+    top: 0;
+   
+    left: 16rem;
+    background-color: gray;
+  
+    border-radius: 2rem;
+    display: block;
+    margin-top: 1rem;
+    color: whitesmoke;
+    padding: 1rem;
+    
+    border-radius: 3rem;
+    text-decoration: none;
+
+}
+
+
+.myname{
+  margin-right: 14rem;
+  margin-top: 0rem;
+
+}
+
+.username{
+  margin-right: 14rem;
+  margin-bottom: 0.5rem;
+  
+ 
+
+}
