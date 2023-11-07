@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Events</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="stylesheet" href="/style.css">
+  <link rel="reset.css" href="/reset.css"> 
+</head>
+
+<body>
+<html>
+    <main>
+ <div clas="temp">    
+
+<div class="fun">
+
+
+    <div>
+        <img class="soon" src="/images/smile.jpeg" alt="coming soon">
+    </div>
+    
+</div> 
+
+
+<div class="fun2">
+
+    <div class="dana">
+        <p><strong>Dana Elkaterji</strong></p>
+    </div>
+
+</div> 
+
+<div class="fun3">
+
+    <div class="hello"> 
+        <h3>Hello world </h3></div>
+
+     
+    
+</div> 
+
+</div>  
+  
+<a href="index.html">Home</a> 
+
+</main>
+</html>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

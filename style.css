@@ -1,19 +1,396 @@
-/*
- * Assignment 02
- * CSS FILE
- */
+
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  background-color:#ffe6a7
+ }
 
-h1 {
+h2 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: #023047;
+  color: #432818;
 }
+
+
+img { 
+  width: 100%;
+  display: block;
+  margin:  auto;
+}
+.logo { 
+  width: 10%;
+  display: block;
+  margin:  0;
+}
+
+
+.footerLogo{
+  width: 50%;
+  display: block;
+
+  border-radius: 20%;
+  margin-top: 3rem;
+  
+}
+
+section{
+  background-color: #99582a;
+  Margin-left: 20px;
+  Margin-right: 20px;
+  Margin-top: 20px;
+  Margin-bottom: 20px;
+  
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5%;
+  
+  }
+
+  
+
+
+.hero{
+  margin: 100%;
+  
+  
+}
+
+
+
+ul > li {
+padding: 1rem;
+border-radius: 0.5rem;
+border: 2.5px solid black;
+margin: .3rem;
+
+}
+
+ul > li:nth-child(1){
+  background-color: #606C38;
+  
+}
+
+ul > li:nth-child(2){
+  background-color: #99582a;
+}
+
+ul > li:nth-child(3){
+  background-color: #606C38;
+
+}
+
+ul > li:nth-child(4){
+  background-color: #99582a;
+}
+
+
+ul > li:nth-child(5){
+  background-color: #606C38;
+
+}
+
+
+
+ 
+.grid-container {
+  display: flex;
+  font-size: 25px;
+  background-color: black;
+  border-radius: 1rem;
+  padding: 10px 5px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+button{ 
+  border-color: #606c38;
+  background-color: #606c38;
+  color: #ffe6a7;
+  border-width: 4px;
+  border-radius: 15%;
+
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  
+}
+
+
+.comingsoon{
+  margin: 0;
+
+}
+
+
+/*
+thia is for my Events link
+*/
+
+.Events{
+
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+
+}
+
+.Events:nth-child(1){
+  background-color:#606c38
+
+
+}
+
+.Events:nth-child(2){
+background-color:#99582a
+}
+
+
+.Events:nth-child(3){
+  background-color:#606c38
+
+  
+}
+
+
+h2{
+  text-transform: uppercase;
+}
+
+section{
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.btn{
+  display:block;
+  margin-top: 1rem;
+
+  background-color: #ffe6a7;
+  color:#432818;
+  padding: 1.2rem;
+  border-radius: 3rem;
+  text-decoration: none;
+
+}
+
+.smile{
+  width:3rem;
+  border-radius: 100%;
+ 
+}
+
+
+/*
+home
+*/
+
+.comingsoon{
+  width:3rem;
+  border-radius: 100%;
+
+  margin-right: 17.7rem;
+  margin-top: 0rem;
+}
+
+.business-card {
+  width: 350px;
+  background-color: whitesmoke;
+  box-shadow: #432818;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9px;
+
+  margin-left: 5rem;
+  margin-top: 3rem;
+
+
+}
+
+
+.follow {
+    position: absolute; 
+    top: 0;
+   
+    left: 16rem;
+    background-color: gray;
+  
+    display: block;
+    margin-top: 4rem;
+    color: whitesmoke;
+    padding: 1rem;
+    
+    border-radius: 3rem;
+    text-decoration: none;
+    margin-left: 4rem;
+
+}
+
+
+.myname{
+  margin-right: 14.4rem;
+  margin-top: 0rem;
+
+}
+
+.username{
+  margin-right: 14rem;
+  margin-bottom: 0.5rem;
+
+
+}
+
+/* art gallery */ 
+
+
+.numbers{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3px;
+  
+}
+
+
+ .num {
+
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+
+  
+
+  
+  }
+
+
+ .submit{
+  background-color: olivedrab;
+  display: block;
+  padding: .5rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+
+  margin-bottom: 0.5rem;
+  margin-right: 3rem;
+
+  text-align: center
+  
+  
+ 
+ }
+
+
+
+ 
+.question{
+  margin-right: 12rem;
+  margin-bottom: 0;
+  
+
+
+}
+
+
+
+
+.myname{
+  margin-right: 14.4rem;
+  margin-top: 0;
+
+}
+
+
+/* card*/
+
+.happy{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 100%;
+}
+
+
+/* template*/
+
+
+
+.fun {
+  width: 350px;
+  background-color:#606C38;
+  box-shadow: #432818;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9px;
+
+ 
+
+}
+
+
+.fun2 {
+  width: 350px;
+  background-color:#99582a;
+  box-shadow: #432818;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9px;
+
+  
+
+}
+
+
+.fun3 {
+  width: 350px;
+  background-color:#432818;
+  box-shadow: #432818;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9px;
+
+
+
+}
+
+
+.soon{
+  border-radius: 100%;
+
+  width: 100px;
+}
+
+
+.temp{
+  background-color: whitesmoke;
+
+}
+
+
+
+

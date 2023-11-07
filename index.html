@@ -1,33 +1,176 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-
 <head>
-  <!-- Set the page title -->
-  <title>Assignment 02</title>
-
-  <!-- Set the charset we're using to UTF-8 -->
-  <meta charset="utf-8" />
-
-  <!-- Set the screens default zoom / scale to 1 -->
+  <meta charset="utf-8">
+  <title>Title of the page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <!-- Specifies the document mode for Internet Explorer -->
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <!-- We are using a CSS Reset file to standardize browser default css -->
-  <link rel="stylesheet" href="./reset.css" />
-
-  <!-- This is where all of our awesome CSS code goes -->
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./style.css">
+  
 </head>
-
 <body>
-  <!--
+  <header>
+    <h1> MY ART GALLERY</h1>
+    <img class="logo" src="/images/letterdmini.png" alt="Company Logo" />
+    <nav>
+      <ul class="grid-container">
 
-    YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+        <ul>
+          <li><a href="#main">main</a></li>
+          <li><a href="#feedback">feedback</a></li>
+          <li><a href="#links">links</a></li>
+      </ul>
+          
+      </ul>
+      </nav>
+  
+  </header>
 
-  -->
-  <h1>Assignment 02</h1>
-</body>
+  
+  <main>
+    
+  
+    <div class="hero-image">
+      <img src="/images/birdydana.jpg" alt="hero"/>
+      <section id="main"> 
+         <h2>welcom to my web page!</h2> </section>
+        <p>This art gallery is fully made by by Dana Elkaterji</p>
+      </div>
+    
+      <section class="Content1"> 
+        <h2>Do Not</h2>
+        <p>The Art Gallery focuses on creative digital drawing made by Dana Elkaterji</p>
+        <img src="/images/donot.png" alt="do not"/>
+        
+          <p>The Do Not is an image of a chocolate doughnut with pink glase and lots of sprinkles.
+            It is called Do Not as in Do Not eat it because it's not real. 
+            the Do Not was made in 2022 by Dana ELkaterji using blender an online websit that
+            makes 3d animation.
+          </p>
+       
+        <dl>
+          <dt>Starting Price</dt>
+          <dd>- $100</dd>
+        </dl>
+        <button>Like</button> <button>Dislike</button>  
+    </section>
+    <section class="Content3">
+      <h2>Dream Cup</h2> 
+      <img src="/images/dreamcup.png" alt="dream cup"/>
+      
+        <p>This art work is called the dream cup. the art work includes a cup with a painting
+      palet that is filled with a variety of chocolate dip for the doughnut that is placed un top of the 
+      cup.The dream cup was made in 2023 using adobe illustrator.
+        </p>
+     
+        
+      <dl>
+        <dt>Starting Price</dt>
+        <dd>- $200</dd>
+      </dl>
+      <button>Like</button> <button>Dislike</button>
+    </section>
+    <section class="Content2">
+      <h2>living room</h2>
+      <img src="images/unnamed.jpg" alt="living room"/>
+      
+        <p>The living room is a 3d image with everything you would typicaly see in a real
+        livingroom.The living room was made in 2023 using blender
+      this drawing also includes a bouquet of flowers that Dana Elkaterji had 
+    hand drawn.</p>
+     
+      <dl>
+  <dt>Starting Price</dt>
+  <dd>- $300</dd>
+</dl>
 
-</html>
+   
+      <button>Like</button> <button>Dislike</button> 
+    </section>
+  </main>
+<footer>
+  <div class="Myform">
+    </div>
+  
+      <div>
+
+        <section id="feedback">  <h2>Win Free Image!</h2> </section>
+      <p> <strong>Win a free image </strong> from Dana by completing the following steps:</p>
+      <ol>
+        <li>Fill the form below</li>
+        <li>like and share my page on instagram</li>
+        <li>give a comment on my page</li>
+      </ol>
+      <p> Fill in this form and provide feedback in order to  <strong>Win a free image </strong> </p>
+      <form action="/server-page-handling-form-data" method="post">
+        <ul>
+          <li>
+            <label for="fullname">Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Bob TheBaker"/>
+          </li>
+          <li>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="bobthebaker@gmail.com"/>
+          </li>
+          <li>
+            <input type="text" id="feedback" name="feedback">
+            <label for="feedback">feedback:</label>
+          </li>
+          
+          <li><button type="submit">Submit</button></li>
+        </ul>
+      </form>
+    </div>
+  
+
+  <img class="footerLogo" src="/images/dana.png" alt="logo">
+
+  <section id="links"> <h3>Useful links</h3> </section>
+  
+  <nav>
+   <ul>
+     <li>
+       <a href="Home.html">Home</a></li>
+     <li>
+        <a href="events.html">Events</a></li>
+     <li>
+       <a href="ContactUs.html">Contact Us</a></li>
+       <li>
+        <a href="card.html">card</a></li>
+     <li>
+       <a href="ArtGallery.html">art</a></li>
+       
+   </ul>
+   </nav>
+
+   <table>
+    <thead>
+      <tr>
+        <th>Contact Information</th>
+      </tr>
+      <tr>
+        <td>Instagram:</td>
+        <td>My Art Gallery</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Email:</td>
+        <td>MyArtGallery@gmail.com</td>
+      </tr>
+       <tr>
+        <td>Phone Number:</td>
+        <td>(613) 123 456</td>
+       </tr>
+    </tbody>
+  </table>
+
+  
+  
+  <h4>last update 9/27/2023</h4>
+  <h4>Copyright 2023 by Dana</h4>
+  
+
+  
+</footer>
